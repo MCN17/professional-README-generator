@@ -3,25 +3,25 @@
   # Professional README-generator
 
   ## Table Of Contents
-  [Description](#Description)
-  [Installation](#Installation)
-  [Usage](#Usage)
-  [Credits](#Creits)
-  [License](#license)
-  [Tests](#Tests)
-  [Questions](#Questions)
+  * [Description](#Description)
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [Credits](#Creits)
+  * [License](#license)
+  * [Tests](#Tests)
+  * [Questions](#Questions)
 
   ## Description 
-  It's an app that takes user input and generates a professional README.
+  This app takes user input and generates a professional README.
 
   ## Installation
-  npm install
+  npm install.
 
   ## Usage
-  Not now.
+  Anyone that that is creating a project and wants to let any potential users know what it entails.
 
   ## Credits
-  Just me.
+  No.
 
   ## License
   Apache 2.0

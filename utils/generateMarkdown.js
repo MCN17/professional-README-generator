@@ -17,13 +17,13 @@ const generateMarkdown = data => {
   # ${data.title}
 
   ## Table Of Contents
-  [Description](#Description)
-  [Installation](#Installation)
-  [Usage](#Usage)
-  [Credits](#Creits)
-  [License](#license)
-  [Tests](#Tests)
-  [Questions](#Questions)
+  * [Description](#Description)
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [Credits](#Creits)
+  * [License](#license)
+  * [Tests](#Tests)
+  * [Questions](#Questions)
 
   ## Description 
   ${data.description}

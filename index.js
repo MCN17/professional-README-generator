@@ -8,17 +8,41 @@ const questions = [
         {
             type:"input", 
             name: "name", 
-            message: "What is your name? (Required)"
+            message: "What is your name? (Required)", 
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log("Please enter your name");
+                    return false;
+                }
+            }
         }, 
         {
             type: "input", 
             name: "github", 
-            message: "Please enter your Github username. (Required)"
+            message: "Please enter your Github username. (Required)", 
+            validate: githubNameInput => {
+                if (githubNameInput) {
+                    return true;
+                } else {
+                    console.log("Please enter a Github username!");
+                    return false;
+                }
+            }
         }, 
         {
             type: "input", 
             name: "title", 
-            message: "What is the title of your project? (Required)"
+            message: "What is the title of your project? (Required)", 
+            validate: titleInput => {
+                if (titleInput) {
+                    return true;
+                } else {
+                    console.log("Please enter the title of your project!");
+                    return false;
+                }
+            }
         }, 
         {
             type: "input", 
@@ -28,28 +52,36 @@ const questions = [
         {
             type: "checkbox", 
             name: "languages", 
-            message: "What languanges did you use to create this project? (Required)", 
+            message: "What languanges did you use to create this project?", 
             choices: ["JavaScript", "HTML", "CSS", "ES6", "jQuery", "Bootstrap", "Node"]
         },
         {
             type: "input", 
             name: "installation", 
-            message: "What are the steps required to install your project? (Required)"
+            message: "What are the steps required to install your project? (Required)", 
+            validate: installInput => {
+                if (installInput) {
+                    return true;
+                } else {
+                    console.log("Please Explain how to Install!");
+                    return false;
+                }
+            }
         }, 
         {
             type: "input", 
             name: "usage", 
-            message: "Provide instructions and examples for use. (Required)"
+            message: "Provide instructions and examples for use."
         }, 
         {
             type: "input", 
             name: "contributors", 
-            message: "Was there anyone other than yourself that contributed to this project? (Required)"
+            message: "Was there anyone other than yourself that contributed to this project?"
         }, 
         {
             type: "list", 
             name: "license", 
-            message: "Please select a license for your project (Required)", 
+            message: "Please select a license for your project", 
             choices: ["Apache 2.0", "GPL 3.0", "MIT", "ISC"]
         }, 
         {
@@ -60,7 +92,15 @@ const questions = [
         {
             type: "input", 
             name: "email", 
-            message: "Please provide your email. (Required)"
+            message: "Please provide your email. (Required)", 
+            validate: emailInput => {
+                if (emailInput) {
+                    return true;
+                } else {
+                    console.log("You must enter your email!");
+                    return false;
+                }
+            }
         }
     ]
 
