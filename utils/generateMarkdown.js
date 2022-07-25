@@ -16,10 +16,17 @@ const generateMarkdown = data => {
   
   # ${data.title}
 
+  ## Table Of Contents
+  [Description](#Description)
+  [Installation](#Installation)
+  [Usage](#Usage)
+  [Credits](#Creits)
+  [License](#license)
+  [Tests](#Tests)
+  [Questions](#Questions)
+
   ## Description 
   ${data.description}
-
-  ## Table Of Contents
 
   ## Installation
   ${data.installation}
@@ -35,6 +42,9 @@ const generateMarkdown = data => {
 
   ## Tests
   ${data.tests}
+
+  ## Questions
+  If you have any questions regarding this app, please visit my Github at [${data.github}](https://github.com/${data.github}). You can also contact me by email at ${data.email}.
 `;
 }
 
