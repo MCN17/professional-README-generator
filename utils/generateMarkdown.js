@@ -14,7 +14,7 @@ function renderLicenseSection(license) {}
 const generateMarkdown = data => {
   return `
   
-  # ${data.title}
+  # ${data.title} ![License badge](https://camo.githubusercontent.com/55056d83628fa4aae93c5790e8641e6d6998b138dae009c0854f4efaae440520/68747470733a2f2f696d672e736869656c64732e696f2f707970692f6c2f436f766572616765)
 
   ## Table Of Contents
   * [Description](#Description)
@@ -38,7 +38,7 @@ const generateMarkdown = data => {
   ${data.contributors}
 
   ## License
-  ${data.license}
+  This application is covered under ${data.license}.
 
   ## Tests
   ${data.tests}
