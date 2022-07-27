@@ -3,8 +3,8 @@
   # Professional README-generator ![License badge](https://camo.githubusercontent.com/55056d83628fa4aae93c5790e8641e6d6998b138dae009c0854f4efaae440520/68747470733a2f2f696d672e736869656c64732e696f2f707970692f6c2f436f766572616765)
   
   ## Demo
-  [![image](https://user-images.githubusercontent.com/104735194/181355294-ddaaafc8-002d-45ae-8ac8-b616ee0c9f22.png)](https://drive.google.com/file/d/1ufA2ZfbzdoAthQoJtPQCDFAFhqNISeck/view?usp=sharing)
-
+  https://drive.google.com/file/d/1ufA2ZfbzdoAthQoJtPQCDFAFhqNISeck/view?usp=sharing
+  
   ## Table Of Contents
   * [Description](#Description)
   * [Installation](#Installation)
