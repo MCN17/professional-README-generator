@@ -76,7 +76,7 @@ const questions = [
         {
             type: "input", 
             name: "contributors", 
-            message: "Was there anyone other than yourself that contributed to this project?"
+            message: "Please provide the name(s) of anyone who contributed to the creation of this application."
         }, 
         {
             type: "list", 
